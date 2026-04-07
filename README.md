@@ -2,7 +2,7 @@
 
 # AI UX Skill Library
 
-### The 10-Skill AI UX Design Engine for Claude Code & GitHub Copilot
+### The 11-Skill AI UX Design Engine for Claude Code & GitHub Copilot
 
 [![Skills](https://img.shields.io/badge/Skills-10+1_Bonus-blue?style=for-the-badge)]()
 [![Frameworks](https://img.shields.io/badge/Frameworks-11-green?style=for-the-badge)]()
