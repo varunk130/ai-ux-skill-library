@@ -4,7 +4,7 @@
 
 ### The 11-Skill AI UX Design Engine for Claude Code & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-10+1_Bonus-blue?style=for-the-badge)]()
+[![Skills](https://img.shields.io/badge/Skills-11-blue?style=for-the-badge)]()
 [![Frameworks](https://img.shields.io/badge/Frameworks-11-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 
