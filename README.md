@@ -11,7 +11,7 @@
 
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
 
-**Purpose-built skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI — trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
+**purpose-built, framework-driven skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI — trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
 
 </div>
 
