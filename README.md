@@ -2,17 +2,38 @@
 
 # AI UX Skill Library
 
-### The 10-Skill AI UX Design Engine for Claude Code & GitHub Copilot
+### The 11-Skill AI UX Design Engine for Claude Code & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-10+1_Bonus-blue?style=for-the-badge)]()
-[![Frameworks](https://img.shields.io/badge/Frameworks-11-green?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
+[![Skills](https://img.shields.io/badge/Skills-11-blue?style=for-the-badge)](#skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-11-green?style=for-the-badge)](#framework-quick-reference)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
-**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
+**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)** · [⚡ Quickstart ↓](#-quickstart) · [Skills Catalog ↓](#skills-catalog) · [Frameworks ↓](#framework-quick-reference)
 
-**Purpose-built skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI — trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
+**Purpose-built, framework-driven skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI — trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
 
 </div>
+
+---
+
+## ⚡ Quickstart
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/varunk130/ai-ux-skill-library.git
+
+# 2. Install all 11 skills globally for Claude Code
+mkdir -p ~/.claude/skills
+cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
+
+# 3. Restart Claude Code, then invoke any framework:
+#      /ai-conversation-architect   — DIALOGUE framework for chat UX
+#      /ai-trust-transparency       — GLASS framework for explainability
+#      /ai-agent-ux                 — AUTONOMY framework for agentic UX
+```
+
+> 💡 Full setup including GitHub Copilot integration is in [Installation](#installation) below.
 
 ---
 
@@ -20,7 +41,7 @@
 
 > **Traditional UX skills don't cover AI.** When your product can hallucinate, act autonomously, and produce different outputs from the same input — you need a new UX design vocabulary. This library provides it.
 
-General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 10 UX challenges that are unique to AI products and don't exist in traditional software.
+General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 11 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
 
 ---
 
@@ -28,33 +49,20 @@ General UX skills (journey mapping, accessibility, design systems) are well-serv
 
 The skills are organized into **3 design phases** for AI products:
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    AI UX SKILLS ECOSYSTEM                           │
-│                                                                     │
-│   ┌────────────────────────────────────────────────────┐           │
-│   │  🎯 FOUNDATION (How users start with AI)           │           │
-│   │                                                    │           │
-│   │  ai-onboarding-calibration  ·  ai-prompt-ux       │           │
-│   │  ai-journey-mapper                                 │           │
-│   └──────────────────────┬─────────────────────────────┘           │
-│                          │                                         │
-│                          ▼                                         │
-│   ┌────────────────────────────────────────────────────┐           │
-│   │  🤖 INTERACTION (How users work with AI)           │           │
-│   │                                                    │           │
-│   │  ai-conversation-architect  ·  ai-agent-ux        │           │
-│   │  ai-feedback-loops  ·  ai-multimodal-output       │           │
-│   └──────────────────────┬─────────────────────────────┘           │
-│                          │                                         │
-│                          ▼                                         │
-│   ┌────────────────────────────────────────────────────┐           │
-│   │  🛡️ TRUST & SAFETY (How users trust AI)            │           │
-│   │                                                    │           │
-│   │  ai-trust-transparency  ·  ai-error-resilience    │           │
-│   │  ai-safety-guardrails  ·  ai-personalization-ethics│           │
-│   └────────────────────────────────────────────────────┘           │
-└─────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    F["🎯 FOUNDATION<br/>How users start with AI<br/><br/>ai-onboarding-calibration · ai-prompt-ux · ai-journey-mapper"]
+    I["🤖 INTERACTION<br/>How users work with AI<br/><br/>ai-conversation-architect · ai-agent-ux<br/>ai-feedback-loops · ai-multimodal-output"]
+    T["🛡 TRUST & SAFETY<br/>How users trust AI<br/><br/>ai-trust-transparency · ai-error-resilience<br/>ai-safety-guardrails · ai-personalization-ethics"]
+
+    F --> I --> T
+
+    classDef foundation fill:#1a73e8,color:#fff,stroke:#1558b0,stroke-width:2px,rx:8,ry:8
+    classDef interact fill:#7C83FD,color:#fff,stroke:#5F65CC,stroke-width:2px,rx:8,ry:8
+    classDef trust fill:#ea8600,color:#fff,stroke:#c57200,stroke-width:2px,rx:8,ry:8
+    class F foundation
+    class I interact
+    class T trust
 ```
 
 ---
@@ -181,6 +189,7 @@ ai-ux-skill-library/
     ├── ai-prompt-ux/SKILL.md                # CRAFT Framework
     ├── ai-personalization-ethics/SKILL.md   # ADAPT Framework
     ├── ai-safety-guardrails/SKILL.md        # SHIELD Framework
+    ├── ai-accessibility-audit/SKILL.md      # CLEAR Framework (WCAG 2.2 AA)
     ├── ai-journey-mapper/SKILL.md           # PATHWAY Framework
     └── ai-multimodal-output/SKILL.md        # RENDER Framework (Bonus)
 ```
