@@ -82,6 +82,7 @@ flowchart TD
 | 9 | AI Safety Guardrails | `SHIELD` | Trust & Safety | Content moderation UX, bias detection, harm prevention, refusal design |
 | 10 | AI Journey Mapper | `PATHWAY` | Foundation | AI-specific journey mapping — trust arcs, capability discovery, autonomy transitions |
 | **Bonus** | AI Output & Multimodal Design | `RENDER` | Interaction | Response formatting, output hierarchy, cross-modal presentation |
+| **Bonus** | AI Accessibility Audit | `CLEAR` | Trust & Safety | WCAG 2.2 AA audit tailored to AI surfaces — keyboard, screen reader, captions, motion |
 
 ---
 
@@ -100,6 +101,7 @@ flowchart TD
 | **SHIELD** | _S_cope, _H_uman, _I_nform, _E_scalation, _L_og, _D_egrade | Safety and usability are not opposites |
 | **PATHWAY** | _P_erception, _A_utonomy, _T_rust, _H_elp, _W_ow, _A_nxiety, _Y_ield | Map what users BELIEVE, not just what they DO |
 | **RENDER** | _R_ight, _E_asy, _N_avigable, _D_irectly, _E_ditable, _R_eproducible | AI generates output. Humans consume meaning |
+| **CLEAR** | _C_ontrast, _L_abels, _E_quivalents, _A_ssist, _R_esponsive | WCAG 2.2 AA audit tailored to AI surfaces |
 
 ---
 
