@@ -20,11 +20,11 @@ A conversation with AI is not a command line with friendlier words. It is a **co
 | **D** | Discover Intent | How does the system understand what the user actually wants (not just what they typed)? |
 | **I** | Identify Ambiguity | Where might the user's request be unclear, and how does the AI ask for clarification without interrogating? |
 | **A** | Adapt Tone | How does the AI match the user's emotional state, formality, and expertise level? |
-| **L** | Layer Information | How is the response structured so users get the right depth — summary first, details on demand? |
+| **L** | Layer Information | How is the response structured so users get the right depth - summary first, details on demand? |
 | **O** | Offer Navigation | How does the AI help users explore related topics, refine their question, or pivot direction? |
 | **G** | Guard Boundaries | How does the AI communicate what it can and cannot do without breaking conversational flow? |
 | **U** | Understand Memory | How does the conversation maintain context across turns, sessions, and time? |
-| **E** | Exit Gracefully | How does the conversation end — or hand off to a human — without abandoning the user? |
+| **E** | Exit Gracefully | How does the conversation end - or hand off to a human - without abandoning the user? |
 
 ---
 
@@ -51,10 +51,10 @@ Unlike human conversation, AI has no body language, no pauses, no "hmm." You mus
 
 | Signal Type | When to Use | Pattern |
 |---|---|---|
-| **Direct question** | When you need specific input | "Which region should I focus on — US, EU, or both?" |
+| **Direct question** | When you need specific input | "Which region should I focus on - US, EU, or both?" |
 | **Suggestion menu** | When options are finite and clear | Present 2-4 clickable options + free text fallback |
 | **Soft prompt** | When the conversation could go multiple directions | "Let me know if you'd like to dig deeper into any of these." |
-| **Completion signal** | When the task is done | "Done — your report is saved. Anything else?" |
+| **Completion signal** | When the task is done | "Done - your report is saved. Anything else?" |
 | **Silence** | Never | AI should never leave the user hanging without a clear signal of what's expected |
 
 ### Human-to-AI Input Patterns
@@ -73,7 +73,7 @@ Design for how users actually type, not how you wish they would:
 
 ## Persona Voice Design
 
-Every AI product needs a voice specification — not a marketing persona, but an interaction-level voice that governs word choice, sentence structure, and emotional register.
+Every AI product needs a voice specification - not a marketing persona, but an interaction-level voice that governs word choice, sentence structure, and emotional register.
 
 ### The Voice Compass (4 Axes)
 
@@ -83,7 +83,7 @@ Rate your AI voice on each axis (1-10):
 |---|---|---|---|---|
 | **Formality** | Casual, conversational | Professional, structured | "Hey! Here's what I found" | "Based on my analysis, the following results are relevant" |
 | **Assertiveness** | Hedging, tentative | Confident, direct | "This might work, maybe?" | "Use this approach. Here's why." |
-| **Warmth** | Neutral, transactional | Empathetic, relational | "Error detected in row 3." | "I found an issue in row 3 — here's how to fix it." |
+| **Warmth** | Neutral, transactional | Empathetic, relational | "Error detected in row 3." | "I found an issue in row 3 - here's how to fix it." |
 | **Density** | Sparse, minimal | Rich, detailed | "3 results found." | "I found 3 matching records, sorted by relevance. The top result..." |
 
 **Rule:** Document your compass coordinates (e.g., F:3 / A:7 / W:6 / D:5) and validate against 20+ real interaction scenarios before shipping.
@@ -107,10 +107,10 @@ The #1 complaint about AI assistants: "It forgot what I said 3 messages ago."
 
 When the conversation exceeds the context window:
 
-1. **Summarize, don't truncate** — Compress earlier turns into a structured summary
-2. **Preserve decisions** — Any user choice or preference from earlier turns must survive compression
-3. **Signal the compression** — "I've summarized our earlier discussion to stay focused. Let me know if I missed anything important."
-4. **Allow retrieval** — Let users ask "What did we discuss about X?" and reconstruct from the summary
+1. **Summarize, don't truncate** - Compress earlier turns into a structured summary
+2. **Preserve decisions** - Any user choice or preference from earlier turns must survive compression
+3. **Signal the compression** - "I've summarized our earlier discussion to stay focused. Let me know if I missed anything important."
+4. **Allow retrieval** - Let users ask "What did we discuss about X?" and reconstruct from the summary
 
 ---
 

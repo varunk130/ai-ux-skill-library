@@ -1,6 +1,6 @@
 ---
 name: AI Error Resilience
-description: 'Design graceful failure experiences for AI products — hallucinations, uncertainty, wrong outputs, and edge cases. Use when: AI hallucination UX, error handling for AI, uncertainty design, graceful degradation, AI failure recovery, confidence thresholds, safe fallbacks.'
+description: 'Design graceful failure experiences for AI products - hallucinations, uncertainty, wrong outputs, and edge cases. Use when: AI hallucination UX, error handling for AI, uncertainty design, graceful degradation, AI failure recovery, confidence thresholds, safe fallbacks.'
 ---
 
 # AI Error Resilience
@@ -99,7 +99,7 @@ From most to least uncertain, calibrate AI language:
 | **One-click correction** | User marks output as wrong with minimal effort | Thumbs down + "What was wrong?" dropdown |
 | **Regeneration with guidance** | User can ask AI to try again with a hint | "Try again, but focus on [specific angle]" |
 | **Human escalation** | Seamless handoff to human when AI fails | "Let me connect you with someone who can help with this." |
-| **Error acknowledgment** | AI explicitly owns the mistake | "You're right — my previous answer was incorrect. Here's the corrected version." |
+| **Error acknowledgment** | AI explicitly owns the mistake | "You're right - my previous answer was incorrect. Here's the corrected version." |
 
 ---
 
@@ -115,7 +115,7 @@ Every AI output needs a fallback plan. Design the fallback hierarchy:
 | 4 | **Human handoff** | AI transfers to a human with full context | "Transferring you to a specialist. I've shared our conversation so you won't need to repeat yourself." |
 | 5 | **Graceful exit** | AI acknowledges the dead end respectfully | "I've reached the limit of what I can help with here. Here are some resources that might help: [links]" |
 
-**Anti-pattern:** The cliff-edge fallback — AI works perfectly until it doesn't, then shows a generic "Something went wrong" error with no path forward.
+**Anti-pattern:** The cliff-edge fallback - AI works perfectly until it doesn't, then shows a generic "Something went wrong" error with no path forward.
 
 ---
 
@@ -138,7 +138,7 @@ For every AI feature, map the blast radius of failure:
 | Pattern | Why It Fails |
 |---|---|
 | Hiding uncertainty behind confident language | Creates automation bias; users can't calibrate trust |
-| Showing a spinner then delivering a hallucination | Users equate "thinking time" with reliability — longer processing implies more trustworthy answers |
+| Showing a spinner then delivering a hallucination | Users equate "thinking time" with reliability - longer processing implies more trustworthy answers |
 | Generic error messages ("Something went wrong") | Tells the user nothing actionable. Always specify: what failed, why, and what to do next |
 | Requiring users to detect AI errors themselves | Users are not QA testers. Build detection into the system |
 | Punishing users for reporting errors | If the correction flow is cumbersome, users will stop reporting and start silently distrusting |

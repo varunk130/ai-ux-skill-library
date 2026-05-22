@@ -9,7 +9,7 @@ Design interfaces where users can see into the AI's reasoning, calibrate their t
 
 ## Core Principle
 
-Trust is not a boolean. Users should not "trust AI" or "distrust AI" — they should develop **calibrated trust**: high confidence when the AI is reliable, healthy skepticism when it's uncertain. Your job is to give them the signals to calibrate correctly.
+Trust is not a boolean. Users should not "trust AI" or "distrust AI" - they should develop **calibrated trust**: high confidence when the AI is reliable, healthy skepticism when it's uncertain. Your job is to give them the signals to calibrate correctly.
 
 ---
 
@@ -27,12 +27,12 @@ Trust is not a boolean. Users should not "trust AI" or "distrust AI" — they sh
 
 ## The Trust Calibration Spectrum
 
-Design for the right trust level — not maximum trust.
+Design for the right trust level - not maximum trust.
 
 | Trust Level | User Behavior | Design Goal | When Appropriate |
 |---|---|---|---|
 | **Over-trust (Automation Bias)** | Accepts all AI outputs without checking | Introduce friction to encourage verification | High-stakes decisions (medical, financial, legal) |
-| **Calibrated Trust** | Verifies selectively based on confidence signals | Maintain — this is the target state | Most AI interactions |
+| **Calibrated Trust** | Verifies selectively based on confidence signals | Maintain - this is the target state | Most AI interactions |
 | **Under-trust (AI Aversion)** | Rejects AI outputs even when correct | Build trust incrementally through track record | New users, after AI failures |
 
 ### Trust Erosion Events (TEEs)
@@ -64,11 +64,11 @@ Every AI output should communicate three dimensions of confidence:
 
 | Context | Show Numerical Confidence? | Show Color Badge? | Show Source Links? |
 |---|---|---|---|
-| Casual information lookup | No — feels clinical | Optional | Yes, inline |
-| Professional decision support | Yes — precision matters | Yes | Yes, with expandable detail |
-| Creative generation (writing, images) | No — subjectivity makes numbers misleading | No | Show inspiration sources if applicable |
+| Casual information lookup | No - feels clinical | Optional | Yes, inline |
+| Professional decision support | Yes - precision matters | Yes | Yes, with expandable detail |
+| Creative generation (writing, images) | No - subjectivity makes numbers misleading | No | Show inspiration sources if applicable |
 | Code generation | Yes (test pass rate) | Yes | Link to documentation used |
-| Medical/legal/financial | Yes — accountability demands it | Yes, conservative (amber default) | Mandatory, with recency indicator |
+| Medical/legal/financial | Yes - accountability demands it | Yes, conservative (amber default) | Mandatory, with recency indicator |
 
 ---
 
@@ -106,7 +106,7 @@ Different users need different explanation depths at different moments. Design e
 
 | Layer | Depth | Content | UI Pattern |
 |---|---|---|---|
-| **5-second** | Headline | One sentence: what the AI did and its confidence | Always visible — the response itself |
+| **5-second** | Headline | One sentence: what the AI did and its confidence | Always visible - the response itself |
 | **5-minute** | Summary | Key factors that influenced the output, top 3 reasons | Expandable section: "Why this answer?" |
 | **50-minute** | Audit trail | Full reasoning chain, all sources consulted, alternative answers considered | Link to detailed view or export |
 

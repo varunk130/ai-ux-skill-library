@@ -1,6 +1,6 @@
 ---
 name: AI Feedback Loops
-description: 'Design feedback mechanisms that help AI systems learn from users — thumbs up/down, preference ranking, corrections, and human-in-the-loop escalation. Use when: RLHF UX, user feedback for AI, thumbs up down design, AI correction flow, human in the loop, feedback signal design, AI improvement loops.'
+description: 'Design feedback mechanisms that help AI systems learn from users - thumbs up/down, preference ranking, corrections, and human-in-the-loop escalation. Use when: RLHF UX, user feedback for AI, thumbs up down design, AI correction flow, human in the loop, feedback signal design, AI improvement loops.'
 ---
 
 # AI Feedback Loops
@@ -9,7 +9,7 @@ Design feedback mechanisms that simultaneously improve the AI model AND improve 
 
 ## Core Principle
 
-Feedback is a **transaction.** Users invest effort (reporting an error, rating an output, explaining what's wrong). If they never see a return on that investment, they stop giving feedback. Design feedback loops that close — where users can see that their input made a difference.
+Feedback is a **transaction.** Users invest effort (reporting an error, rating an output, explaining what's wrong). If they never see a return on that investment, they stop giving feedback. Design feedback loops that close - where users can see that their input made a difference.
 
 ---
 
@@ -28,7 +28,7 @@ Feedback is a **transaction.** Users invest effort (reporting an error, rating a
 
 ## The Feedback Pyramid
 
-Design feedback collection in layers — most users will only reach the first layer, and that's fine.
+Design feedback collection in layers - most users will only reach the first layer, and that's fine.
 
 | Layer | Effort | Signal Quality | Collection Rate | Mechanism |
 |---|---|---|---|---|
@@ -61,7 +61,7 @@ These require zero user effort but reveal powerful behavioral data:
 
 ## Binary Feedback Design
 
-The thumbs up/down is the most common AI feedback mechanism — and the most commonly botched.
+The thumbs up/down is the most common AI feedback mechanism - and the most commonly botched.
 
 ### Thumbs Up/Down Best Practices
 
@@ -103,8 +103,8 @@ The highest-quality feedback signal: showing two AI outputs and asking which is 
 | Scenario | Comparative Feedback? | Why |
 |---|---|---|
 | General chat responses | Occasionally (10-20% of responses) | High-quality signal but adds friction |
-| Creative generation (writing, images) | Yes — great fit | Subjective quality is hard to measure otherwise |
-| Factual answers | Rarely | Usually one answer is objectively correct — binary feedback is sufficient |
+| Creative generation (writing, images) | Yes - great fit | Subjective quality is hard to measure otherwise |
+| Factual answers | Rarely | Usually one answer is objectively correct - binary feedback is sufficient |
 | Code generation | Sometimes | "Which code is cleaner?" is valuable but requires expertise to judge |
 
 ### Comparison UI Patterns
@@ -114,7 +114,7 @@ The highest-quality feedback signal: showing two AI outputs and asking which is 
 | **Side-by-side** | Two responses shown simultaneously | Short responses (< 200 words each) |
 | **Sequential with memory** | Show response A, then B, then ask preference | Longer responses where side-by-side is unwieldy |
 | **Inline replacement** | "I have an alternative answer. Want to see it?" | Minimal disruption to the main flow |
-| **Batch review** | End-of-session: "Help us improve — which answers were best today?" | Users willing to spend 2 minutes helping |
+| **Batch review** | End-of-session: "Help us improve - which answers were best today?" | Users willing to spend 2 minutes helping |
 
 ---
 
@@ -126,7 +126,7 @@ Users who give feedback and never see impact stop giving feedback. Design visibl
 
 | Pattern | Implementation | Example |
 |---|---|---|
-| **Immediate acknowledgment** | Thank the user and explain what happens next | "Thanks — this helps us improve. We review flagged responses daily." |
+| **Immediate acknowledgment** | Thank the user and explain what happens next | "Thanks - this helps us improve. We review flagged responses daily." |
 | **Aggregate impact** | Show users how feedback from all users improved the system | "Users flagged 500 inaccurate responses last month. 340 were corrected." |
 | **Personal impact** | Show the user how THEIR feedback changed behavior | "Based on your feedback, I now handle [specific task] differently." |
 | **Release notes** | Tie model improvements to user feedback themes | "v2.3 improvements: Better code generation (informed by user feedback)" |
@@ -154,7 +154,7 @@ When AI confidence is low, feedback becomes real-time human decision-making.
 | Pattern | Why It Fails |
 |---|---|
 | Feedback widget appears before the user has read the response | Users can't rate what they haven't consumed |
-| Only collecting positive feedback (e.g., "Was this helpful? Yes / No" with only "Yes" prominent) | Survivorship bias — you only hear from satisfied users |
+| Only collecting positive feedback (e.g., "Was this helpful? Yes / No" with only "Yes" prominent) | Survivorship bias - you only hear from satisfied users |
 | Pop-up NPS survey mid-task | Interrupts flow; generates resentful 0-scores |
 | "Thanks for your feedback!" with no evidence of action | Teaches users that feedback is performative, not functional |
 | Requiring login to give feedback | Reduces feedback volume by 80%+ |

@@ -1,11 +1,11 @@
 ---
 name: AI Output & Multimodal Design
-description: 'Design how AI presents results across text, code, images, charts, and mixed media — response formatting, output hierarchy, and cross-modal transitions. Use when: AI output design, response formatting, AI results display, multimodal output, AI-generated content presentation, code output UX, AI visualization.'
+description: 'Design how AI presents results across text, code, images, charts, and mixed media - response formatting, output hierarchy, and cross-modal transitions. Use when: AI output design, response formatting, AI results display, multimodal output, AI-generated content presentation, code output UX, AI visualization.'
 ---
 
 # AI Output & Multimodal Design
 
-Design how AI results are presented, formatted, and consumed across every output modality — text, code, images, data visualizations, and mixed media. The RENDER framework ensures AI outputs are scannable, actionable, and trustworthy regardless of format.
+Design how AI results are presented, formatted, and consumed across every output modality - text, code, images, data visualizations, and mixed media. The RENDER framework ensures AI outputs are scannable, actionable, and trustworthy regardless of format.
 
 ## Core Principle
 
@@ -51,7 +51,7 @@ Every AI response should follow this structure (whether the output is 1 line or 
 |---|---|---|---|
 | **Headline** | The core answer in one sentence or phrase | Yes | "Your churn rate increased 12% QoQ, driven by enterprise segment." |
 | **Key Details** | Supporting information, top 3-5 points | Yes (brief) | Key drivers, affected metrics, comparison to benchmark |
-| **Evidence** | Sources, data, methodology, reasoning | Collapsed — expand on demand | Data tables, source citations, model confidence |
+| **Evidence** | Sources, data, methodology, reasoning | Collapsed - expand on demand | Data tables, source citations, model confidence |
 | **Actions** | What the user can do next | Yes (as buttons or suggestions) | "View affected accounts" / "Generate retention plan" / "Share with team" |
 
 **Rule:** If the user has to scroll past the headline to understand the output, the formatting failed.

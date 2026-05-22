@@ -1,11 +1,11 @@
 ---
 name: AI Agent UX
-description: 'Design user experiences for autonomous AI agents that act on behalf of users — control panels, consent flows, action previews, audit trails, and undo mechanisms. Use when: agentic AI, autonomous agents, AI autonomy controls, agent UX, AI actions, computer use, agent consent, agent audit trail.'
+description: 'Design user experiences for autonomous AI agents that act on behalf of users - control panels, consent flows, action previews, audit trails, and undo mechanisms. Use when: agentic AI, autonomous agents, AI autonomy controls, agent UX, AI actions, computer use, agent consent, agent audit trail.'
 ---
 
 # AI Agent UX
 
-Design experiences for AI that doesn't just suggest — it acts. Booking flights, sending emails, executing code, making purchases. The AUTONOMY framework ensures users stay in control while AI operates at machine speed.
+Design experiences for AI that doesn't just suggest - it acts. Booking flights, sending emails, executing code, making purchases. The AUTONOMY framework ensures users stay in control while AI operates at machine speed.
 
 ## Core Principle
 

@@ -1,11 +1,11 @@
 ---
 name: AI Prompt UX
-description: 'Design the input experience for AI products — how users craft, structure, and refine their instructions to AI systems. Use when: prompt interface, AI input design, prompt templates, prompt suggestions, context window UX, instruction design, AI input affordances, prompt engineering UX.'
+description: 'Design the input experience for AI products - how users craft, structure, and refine their instructions to AI systems. Use when: prompt interface, AI input design, prompt templates, prompt suggestions, context window UX, instruction design, AI input affordances, prompt engineering UX.'
 ---
 
 # AI Prompt UX
 
-Design the input side of AI interactions — how users express their intent, refine their requests, and learn to communicate effectively with AI. The CRAFT framework treats the prompt experience as a design surface, not just a text box.
+Design the input side of AI interactions - how users express their intent, refine their requests, and learn to communicate effectively with AI. The CRAFT framework treats the prompt experience as a design surface, not just a text box.
 
 ## Core Principle
 
@@ -98,7 +98,7 @@ Modern AI accepts more than text. Design for all input modes:
 | **File upload** | Supported formats, size limits, processing time | Drag-and-drop zone with format badges |
 | **Image/screenshot** | Resolution requirements, what the AI "sees" | Paste or drop with annotation overlay: "What should I focus on in this image?" |
 | **Voice** | Transcription accuracy, ambient noise, language | Push-to-talk with real-time transcription preview |
-| **URL/link** | What gets fetched, what's processed, privacy implications | Paste field with preview: "I'll read [title] — what would you like to know about it?" |
+| **URL/link** | What gets fetched, what's processed, privacy implications | Paste field with preview: "I'll read [title] - what would you like to know about it?" |
 | **Structured data** | CSV, JSON, database connections | Upload + preview table + "What would you like to analyze?" |
 
 ### Multi-Modal Orchestration
@@ -152,7 +152,7 @@ Most good AI interactions require 2-3 iterations. Design for the refinement cycl
 |---|---|
 | Blank text box with no guidance | Users don't know what's possible, write bad prompts, get bad results, leave |
 | "Be more specific" error messages | Tells the user they're wrong but doesn't help them be right |
-| Character limits without explanation | "Prompt too long" — how long? What to cut? Why is there a limit? |
+| Character limits without explanation | "Prompt too long" - how long? What to cut? Why is there a limit? |
 | Hiding prompt history | Users can't learn from their own past successes |
 | Suggestion chips that don't do anything | Chips that only populate the text box instead of executing the prompt |
 | Auto-submitting on paste | Users paste text as context, not as a prompt. Don't fire automatically |

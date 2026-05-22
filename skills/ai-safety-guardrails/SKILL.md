@@ -1,15 +1,15 @@
 ---
 name: AI Safety Guardrails
-description: 'Design safety experiences for AI products — content moderation UX, bias detection surfaces, harm prevention patterns, and responsible AI interfaces. Use when: AI safety UX, content moderation, responsible AI, AI bias UX, harm prevention, content filtering UX, AI refusal design, safety disclaimers.'
+description: 'Design safety experiences for AI products - content moderation UX, bias detection surfaces, harm prevention patterns, and responsible AI interfaces. Use when: AI safety UX, content moderation, responsible AI, AI bias UX, harm prevention, content filtering UX, AI refusal design, safety disclaimers.'
 ---
 
 # AI Safety Guardrails
 
-Design the user-facing layer of AI safety — how products prevent harm, communicate restrictions, handle sensitive content, and maintain accountability. The SHIELD framework ensures safety mechanisms protect users without destroying the user experience.
+Design the user-facing layer of AI safety - how products prevent harm, communicate restrictions, handle sensitive content, and maintain accountability. The SHIELD framework ensures safety mechanisms protect users without destroying the user experience.
 
 ## Core Principle
 
-Safety and usability are not opposites. The best safety design is **invisible when everything is fine and clear when it matters.** Safety should feel like a guardrail on a mountain road — you forget it's there until you need it, and when you need it, you're grateful it's solid.
+Safety and usability are not opposites. The best safety design is **invisible when everything is fine and clear when it matters.** Safety should feel like a guardrail on a mountain road - you forget it's there until you need it, and when you need it, you're grateful it's solid.
 
 ---
 
@@ -105,7 +105,7 @@ When AI output may contain bias, surface it proactively:
 |---|---|---|
 | General AI outputs | Footer, one-time acknowledgment | "AI-generated content. Verify important information." |
 | Medical/legal/financial | Inline, every relevant response | Bold banner: "This is not professional advice. Consult [type] professional." |
-| Creative/subjective content | No disclaimer needed | None — over-disclaiming creative content undermines its value |
+| Creative/subjective content | No disclaimer needed | None - over-disclaiming creative content undermines its value |
 | Code generation | Inline warning for security-sensitive code | "Review this code for security vulnerabilities before deploying." |
 | Data analysis | Methodology note | "Based on the data provided. Results depend on data quality and completeness." |
 

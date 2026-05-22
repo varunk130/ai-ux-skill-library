@@ -9,7 +9,7 @@ Design first-time and ongoing experiences that help users understand what AI can
 
 ## Core Principle
 
-AI onboarding is fundamentally different from traditional software onboarding. In traditional software, features are deterministic — a button always does the same thing. In AI products, the same input can produce different outputs, capabilities have fuzzy boundaries, and what the AI "can do" depends on context. **You are not teaching features. You are calibrating a mental model.**
+AI onboarding is fundamentally different from traditional software onboarding. In traditional software, features are deterministic - a button always does the same thing. In AI products, the same input can produce different outputs, capabilities have fuzzy boundaries, and what the AI "can do" depends on context. **You are not teaching features. You are calibrating a mental model.**
 
 ---
 
@@ -51,16 +51,16 @@ Organize AI capabilities into three discovery zones:
 
 | Zone | Content | Disclosure Trigger | Percentage of Capabilities |
 |---|---|---|---|
-| **Core Zone** | The 3-5 things the AI does best — the reason users signed up | Immediate — visible from first interaction | 20% of total capabilities |
-| **Growth Zone** | Capabilities users discover through use — "oh, it can do THAT too?" | Contextual — surface when user behavior suggests readiness | 50% of total capabilities |
-| **Power Zone** | Advanced features for expert users — complex prompts, system config, integrations | Intentional — user seeks them out, or after demonstrated mastery | 30% of total capabilities |
+| **Core Zone** | The 3-5 things the AI does best - the reason users signed up | Immediate - visible from first interaction | 20% of total capabilities |
+| **Growth Zone** | Capabilities users discover through use - "oh, it can do THAT too?" | Contextual - surface when user behavior suggests readiness | 50% of total capabilities |
+| **Power Zone** | Advanced features for expert users - complex prompts, system config, integrations | Intentional - user seeks them out, or after demonstrated mastery | 30% of total capabilities |
 
 ### Disclosure Triggers
 
 | Trigger Type | Example | Best For |
 |---|---|---|
 | **Usage milestone** | After 10 conversations: "Did you know you can create custom templates?" | Growth Zone features |
-| **Behavioral signal** | User manually repeats a task: "You do this often — want to automate it?" | Power Zone features |
+| **Behavioral signal** | User manually repeats a task: "You do this often - want to automate it?" | Power Zone features |
 | **Contextual relevance** | User uploads a PDF: "I can also summarize this and extract key points" | Growth Zone features |
 | **Failure moment** | User's prompt produces poor results: "Try structuring your request like this for better results" | Prompting education |
 | **Time-based** | After 1 week: "Here's what other users find helpful at this stage" | General capability awareness |
@@ -102,7 +102,7 @@ The first interaction with an AI product determines whether users come back. Des
 |---|---|---|
 | **Fill-in-the-blank** | Template with one variable the user customizes | "Help me write a [type of document] about [topic]" |
 | **Choose-your-adventure** | 3-4 clickable starting scenarios | "Analyze data" / "Write content" / "Research a topic" |
-| **Show-don't-tell** | Pre-run a demo query with real results visible | "Here's what I did with a sample dataset — try your own" |
+| **Show-don't-tell** | Pre-run a demo query with real results visible | "Here's what I did with a sample dataset - try your own" |
 | **Mirror the user** | Use onboarding data to personalize the first prompt | "Since you're in marketing, try: 'Create a campaign brief for...'" |
 
 ---
@@ -125,7 +125,7 @@ For every AI product, maintain a public capability map:
 
 ## Recalibration After Failure
 
-When the AI produces a bad output, the onboarding isn't over — it's entering a critical phase.
+When the AI produces a bad output, the onboarding isn't over - it's entering a critical phase.
 
 ### The Recalibration Flow
 

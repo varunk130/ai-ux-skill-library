@@ -1,15 +1,15 @@
 ---
 name: AI Journey Mapper
-description: 'Map human-AI interaction journeys — trust arcs, capability discovery paths, autonomy progression, and AI-specific touchpoints. Use when: AI user journey, human-AI interaction mapping, trust arc mapping, AI capability discovery, AI adoption journey, AI experience map.'
+description: 'Map human-AI interaction journeys - trust arcs, capability discovery paths, autonomy progression, and AI-specific touchpoints. Use when: AI user journey, human-AI interaction mapping, trust arc mapping, AI capability discovery, AI adoption journey, AI experience map.'
 ---
 
 # AI Journey Mapper
 
-Map the unique journeys users take when interacting with AI products — from first encounter through mastery. Unlike traditional journey mapping, AI journeys include trust arcs, capability discovery curves, mental model evolution, and the shifting balance of human-AI control. The PATHWAY framework captures what traditional journey maps miss.
+Map the unique journeys users take when interacting with AI products - from first encounter through mastery. Unlike traditional journey mapping, AI journeys include trust arcs, capability discovery curves, mental model evolution, and the shifting balance of human-AI control. The PATHWAY framework captures what traditional journey maps miss.
 
 ## Core Principle
 
-Traditional journey maps track what users DO. AI journey maps must also track what users BELIEVE — because the gap between what users believe the AI can do and what it actually can do is where every AI UX problem lives.
+Traditional journey maps track what users DO. AI journey maps must also track what users BELIEVE - because the gap between what users believe the AI can do and what it actually can do is where every AI UX problem lives.
 
 ---
 
@@ -46,7 +46,7 @@ An AI journey map extends the traditional CJM with AI-specific rows:
 | Row | Content | Why It Matters |
 |---|---|---|
 | **Mental Model** | What the user believes the AI can do at this phase | Misaligned mental models cause 80% of AI UX failures |
-| **Trust Level** | High / Medium / Low / Broken — with the event that caused the change | Trust is the #1 predictor of AI adoption and retention |
+| **Trust Level** | High / Medium / Low / Broken - with the event that caused the change | Trust is the #1 predictor of AI adoption and retention |
 | **Autonomy Balance** | Who is in control: User-led → Collaborative → AI-led | The shift from "I use the AI" to "the AI works for me" is the key transition |
 | **Capability Awareness** | Percentage of AI capabilities the user has discovered | Most users discover < 30% of capabilities in the first month |
 | **Verification Behavior** | How much the user checks AI outputs | Decreasing verification = growing trust (or dangerous complacency) |
@@ -124,7 +124,7 @@ Track how users discover what the AI can do over time.
 | **Contextual suggestion** | Low (AI suggests it at the right moment) | 40-60% by Day 30 | Build smart suggestion triggers |
 | **Exploration** | Medium (user tries something new) | 20-30% by Day 30 | Provide a "What else can you do?" surface |
 | **Peer recommendation** | Variable (depends on community) | 10-20% by Day 30 | Build sharing and team features |
-| **Documentation** | High (user reads help docs) | 5-10% by Day 30 | Don't rely on docs for discovery — supplement only |
+| **Documentation** | High (user reads help docs) | 5-10% by Day 30 | Don't rely on docs for discovery - supplement only |
 
 ### The Capability Discovery Map
 
@@ -173,10 +173,10 @@ Map how control shifts between user and AI across the journey:
 | Pattern | Why It Fails |
 |---|---|
 | Mapping the AI journey like a traditional software journey | Misses the trust arc, mental model evolution, and autonomy transitions that are unique to AI |
-| Assuming trust is built once and stays | Trust is dynamic — a single hallucination at Month 6 can reset trust to Month 1 levels |
+| Assuming trust is built once and stays | Trust is dynamic - a single hallucination at Month 6 can reset trust to Month 1 levels |
 | Mapping only the happy path | AI journeys have more failure modes than traditional software. Map the error recovery paths explicitly |
 | Treating all users as one persona | A technical user and a non-technical user have completely different AI adoption curves |
-| Focusing only on the product journey | The AI journey extends beyond your product — how do users feel about AI in general? Prior AI experiences shape expectations |
+| Focusing only on the product journey | The AI journey extends beyond your product - how do users feel about AI in general? Prior AI experiences shape expectations |
 
 ---
 

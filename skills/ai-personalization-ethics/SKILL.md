@@ -5,11 +5,11 @@ description: 'Design AI-driven personalization that adapts interfaces to users w
 
 # AI Personalization & Ethics
 
-Design adaptive interfaces that learn from users and improve over time — without crossing into surveillance, manipulation, or exclusion. The ADAPT framework ensures personalization serves the user's interests, not just engagement metrics.
+Design adaptive interfaces that learn from users and improve over time - without crossing into surveillance, manipulation, or exclusion. The ADAPT framework ensures personalization serves the user's interests, not just engagement metrics.
 
 ## Core Principle
 
-Personalization is not a feature — it is a **power dynamic.** The system knows things about the user that the user may not know about themselves. With that knowledge comes responsibility: personalization must be transparent, controllable, and in service of the user's actual goals, not the platform's engagement targets.
+Personalization is not a feature - it is a **power dynamic.** The system knows things about the user that the user may not know about themselves. With that knowledge comes responsibility: personalization must be transparent, controllable, and in service of the user's actual goals, not the platform's engagement targets.
 
 ---
 
@@ -31,11 +31,11 @@ Not all personalization is created equal. Higher rungs are more valuable but mor
 
 | Rung | Personalization Type | Data Needed | Value to User | Ethical Risk |
 |---|---|---|---|---|
-| 1 | **Segment-based** | Demographics, role, industry | Low-medium (generic) | Low — broad groupings |
-| 2 | **Preference-based** | Explicit user settings | Medium (user-controlled) | Very low — user chose this |
-| 3 | **Behavior-based** | Usage patterns, interaction history | High (relevant) | Medium — user may not realize they're being tracked |
-| 4 | **Predictive** | ML models inferring future needs | Very high (proactive) | High — AI "knows" things about the user |
-| 5 | **Contextual** | Location, time, device, ambient signals | Highest (seamless) | Highest — feels invasive if done without consent |
+| 1 | **Segment-based** | Demographics, role, industry | Low-medium (generic) | Low - broad groupings |
+| 2 | **Preference-based** | Explicit user settings | Medium (user-controlled) | Very low - user chose this |
+| 3 | **Behavior-based** | Usage patterns, interaction history | High (relevant) | Medium - user may not realize they're being tracked |
+| 4 | **Predictive** | ML models inferring future needs | Very high (proactive) | High - AI "knows" things about the user |
+| 5 | **Contextual** | Location, time, device, ambient signals | Highest (seamless) | Highest - feels invasive if done without consent |
 
 **Design rule:** Start at Rung 2 (explicit preferences). Only climb higher with user consent, transparency, and a clear user benefit that justifies the data collection.
 
@@ -67,7 +67,7 @@ AI personalization can trap users in echo chambers. Design deliberate escape hat
 | Recommendation diversity score drops below 30% | High | Algorithmic diversity floor: ensure minimum variety |
 | User hasn't discovered a major feature after 30 days | Medium | Proactive feature surfacing outside the personalization model |
 | Same 5 content sources repeatedly recommended | Medium | Source diversity requirement in recommendation algorithm |
-| User clicks "not interested" on novel content | Low (but watch) | Distinguish "not now" from "never" — don't over-learn from single signals |
+| User clicks "not interested" on novel content | Low (but watch) | Distinguish "not now" from "never" - don't over-learn from single signals |
 
 ### Escape Hatch Patterns
 
@@ -116,7 +116,7 @@ AI personalization can silently discriminate. Build fairness checks into the des
 | "Based on your activity" with no detail | Which activity? When? How does it affect what I see? Vagueness breeds distrust |
 | Making it hard to disable personalization | Buried in Settings > Privacy > Advanced > Personalization = hostile design |
 | Learning too fast from single interactions | One click on a topic ≠ lifelong interest. Build in decay and forgetting |
-| Personalizing critical safety information | Warnings, terms, security alerts must be universal — never filter these |
+| Personalizing critical safety information | Warnings, terms, security alerts must be universal - never filter these |
 | A/B testing personalization without consent | Users in different test groups get materially different experiences without knowing |
 
 ---
