@@ -105,7 +105,7 @@ flowchart TD
 
 ---
 
-## Quick-Start Workflows
+## Quickstart Workflows
 
 ### Designing a New AI Chat Product
 ```
