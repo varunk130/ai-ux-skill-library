@@ -191,7 +191,7 @@ ai-ux-skill-library/
     ├── ai-prompt-ux/SKILL.md                # CRAFT Framework
     ├── ai-personalization-ethics/SKILL.md   # ADAPT Framework
     ├── ai-safety-guardrails/SKILL.md        # SHIELD Framework
-    ├── ai-accessibility-audit/SKILL.md      # CLEAR Framework (WCAG 2.2 AA)
+    ├── ai-accessibility-audit/SKILL.md      # CLEAR Framework (Bonus, WCAG 2.2 AA)
     ├── ai-journey-mapper/SKILL.md           # PATHWAY Framework
     └── ai-multimodal-output/SKILL.md        # RENDER Framework (Bonus)
 ```
