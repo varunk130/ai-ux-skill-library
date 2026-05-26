@@ -2,10 +2,10 @@
 
 # AI UX Skill Library
 
-### The 11-Skill AI UX Design Engine for Claude Code & GitHub Copilot
+### The 12-Skill AI UX Design Engine for Claude Code & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-11-blue?style=for-the-badge)](#skills-catalog)
-[![Frameworks](https://img.shields.io/badge/Frameworks-11-green?style=for-the-badge)](#framework-quick-reference)
+[![Skills](https://img.shields.io/badge/Skills-12-blue?style=for-the-badge)](#skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-12-green?style=for-the-badge)](#framework-quick-reference)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
@@ -23,7 +23,7 @@
 # 1. Clone the repo
 git clone https://github.com/varunk130/ai-ux-skill-library.git
 
-# 2. Install all 11 skills globally for Claude Code
+# 2. Install all 12 skills globally for Claude Code
 mkdir -p ~/.claude/skills
 cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
 
