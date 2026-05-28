@@ -209,7 +209,7 @@ We welcome contributions! To add or improve a skill:
 
 ---
 
-## Related work
+## Related Work
 
 Part of a portfolio of AI agent and skill libraries for product, GTM, and decision-making teams.
 
