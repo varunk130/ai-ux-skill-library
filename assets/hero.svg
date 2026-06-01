@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="AI UX Skill Library. 12 frameworks for designing UX for AI products, agents, and AI-powered experiences.">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0d33"/>
+      <stop offset="50%" style="stop-color:#2a1551"/>
+      <stop offset="100%" style="stop-color:#1a0d33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="foundation" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#1a73e8"/>
+    </linearGradient>
+    <linearGradient id="interaction" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#7c5cff"/>
+    </linearGradient>
+    <linearGradient id="trust" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffb259"/>
+      <stop offset="100%" style="stop-color:#ea8600"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)" rx="12"/>
+
+  <ellipse cx="200" cy="190" rx="260" ry="160" fill="#7c5cff" opacity="0.12"/>
+  <ellipse cx="1000" cy="190" rx="240" ry="140" fill="#ea8600" opacity="0.08"/>
+
+  <g opacity="0.05" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="76" x2="1200" y2="76"/>
+    <line x1="0" y1="190" x2="1200" y2="190"/>
+    <line x1="0" y1="304" x2="1200" y2="304"/>
+  </g>
+
+  <rect x="80" y="42" width="80" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- Glyph: nested layers (foundation/interaction/trust) -->
+  <g transform="translate(80, 62)">
+    <rect width="56" height="56" rx="12" fill="#7c5cff" opacity="0.15"/>
+    <rect x="10" y="36" width="36" height="10" rx="2" fill="#3b82f6" opacity="0.85"/>
+    <rect x="10" y="22" width="36" height="10" rx="2" fill="#a78bfa" opacity="0.85"/>
+    <rect x="10" y="8" width="36" height="10" rx="2" fill="#ffb259" opacity="0.85"/>
+  </g>
+
+  <text x="156" y="100" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="-1">AI UX Skill Library</text>
+
+  <text x="156" y="135" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#e0d6ff">12 frameworks for designing UX for AI products, agents, and AI-powered experiences.</text>
+
+  <rect x="80" y="170" width="1040" height="1" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Three design phases -->
+  <g transform="translate(80, 200)" font-family="-apple-system, sans-serif">
+    <!-- FOUNDATION -->
+    <g>
+      <rect width="330" height="140" rx="12" fill="url(#foundation)" opacity="0.95"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="2">FOUNDATION</text>
+      <text x="20" y="58" font-size="18" font-weight="700" fill="#ffffff">How users start with AI</text>
+      <g font-size="12" font-weight="500" fill="#e6efff">
+        <text x="20" y="84">· ai-onboarding-calibration</text>
+        <text x="20" y="102">· ai-prompt-ux</text>
+        <text x="20" y="120">· ai-journey-mapper</text>
+      </g>
+    </g>
+
+    <!-- INTERACTION -->
+    <g transform="translate(355, 0)">
+      <rect width="330" height="140" rx="12" fill="url(#interaction)" opacity="0.95"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="2">INTERACTION</text>
+      <text x="20" y="58" font-size="18" font-weight="700" fill="#ffffff">How users work with AI</text>
+      <g font-size="12" font-weight="500" fill="#efe6ff">
+        <text x="20" y="84">· ai-conversation-architect · ai-agent-ux</text>
+        <text x="20" y="102">· ai-feedback-loops</text>
+        <text x="20" y="120">· ai-multimodal-output</text>
+      </g>
+    </g>
+
+    <!-- TRUST -->
+    <g transform="translate(710, 0)">
+      <rect width="330" height="140" rx="12" fill="url(#trust)"/>
+      <text x="20" y="32" font-size="12" font-weight="700" fill="#ffffff" letter-spacing="2">TRUST &amp; SAFETY</text>
+      <text x="20" y="58" font-size="18" font-weight="700" fill="#ffffff">How users trust AI</text>
+      <g font-size="12" font-weight="500" fill="#fff3e0">
+        <text x="20" y="84">· ai-trust-transparency · ai-error-resilience</text>
+        <text x="20" y="102">· ai-safety-guardrails</text>
+        <text x="20" y="120">· ai-personalization-ethics · ai-accessibility</text>
+      </g>
+    </g>
+  </g>
+</svg>
