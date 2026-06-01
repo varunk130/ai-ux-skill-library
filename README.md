@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.svg" alt="AI UX Skill Library — 12 frameworks for designing UX for AI products, agents, and AI-powered experiences" width="100%"/>
+
 # AI UX Skill Library
 
 ### The 12-Skill AI UX Design Engine for Claude Code & GitHub Copilot
