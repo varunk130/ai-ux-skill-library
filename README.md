@@ -69,6 +69,8 @@ flowchart TD
 
 ## Skills Catalog
 
+12 skills total — 10 core skills (numbered 1–10) plus 2 bonus skills (output/multimodal and accessibility) that extend coverage to rendering and inclusive design.
+
 | # | Skill | Framework | Phase | What It Solves |
 |---|-------|-----------|-------|---------------|
 | 1 | AI Conversation Architect | `DIALOGUE` | Interaction | Conversational AI interfaces - turn-taking, persona voice, multi-turn context, error recovery |
