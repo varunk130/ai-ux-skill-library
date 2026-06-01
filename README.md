@@ -41,7 +41,7 @@ cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
 
 > **Traditional UX skills don't cover AI.** When your product can hallucinate, act autonomously, and produce different outputs from the same input - you need a new UX design vocabulary. This library provides it.
 
-General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** - the 11 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
+General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 12 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
 
 ---
 
