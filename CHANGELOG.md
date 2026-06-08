@@ -2,6 +2,7 @@
 
 Notable changes to this project, newest first.
 
+- 2026-06-07 - Documentation: updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
 - 2026-05-07 - Documentation: clarified the "Why This Exists" framing in the README intro.
 - 2026-05-02 - Documentation polish: tightened README phrasing and clarified install steps.
 - 2026-05-02 - Maintenance: normalized markdown table spacing across docs.
