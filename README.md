@@ -13,7 +13,7 @@
 
 **Created and maintained by [Varun Kulkarni](https://github.com/varunk130)** · [⚡ Quickstart ↓](#-quickstart) · [Skills Catalog ↓](#skills-catalog) · [Frameworks ↓](#framework-quick-reference)
 
-**Purpose-built, framework-driven skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI - trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
+**Purpose-built, framework-driven skills for designing UX for AI products, AI agents, and AI-powered experiences.** Each skill encodes a proprietary framework for the unique UX challenges that only exist when humans interact with AI — trust calibration, hallucination recovery, agentic control, prompt interfaces, and more.
 
 </div>
 
@@ -41,7 +41,7 @@ cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
 
 ## Why This Exists
 
-> **Traditional UX skills don't cover AI.** When your product can hallucinate, act autonomously, and produce different outputs from the same input - you need a new UX design vocabulary. This library provides it.
+> **Traditional UX skills don't cover AI.** When your product can hallucinate, act autonomously, and produce different outputs from the same input — you need a new UX design vocabulary. This library provides it.
 
 General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 12 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
 
