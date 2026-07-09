@@ -75,18 +75,18 @@ flowchart TD
 
 | # | Skill | Framework | Phase | What It Solves |
 |---|-------|-----------|-------|---------------|
-| 1 | AI Conversation Architect | `DIALOGUE` | Interaction | Conversational AI interfaces - turn-taking, persona voice, multi-turn context, error recovery |
-| 2 | AI Trust & Transparency | `GLASS` | Trust & Safety | Explainability UX - confidence indicators, citation design, source attribution |
+| 1 | AI Conversation Architect | `DIALOGUE` | Interaction | Conversational AI interfaces — turn-taking, persona voice, multi-turn context, error recovery |
+| 2 | AI Trust & Transparency | `GLASS` | Trust & Safety | Explainability UX — confidence indicators, citation design, source attribution |
 | 3 | AI Error Resilience | `RECOVER` | Trust & Safety | Hallucinations, uncertainty, graceful degradation, safe fallbacks |
-| 4 | AI Agent UX | `AUTONOMY` | Interaction | Agentic AI - autonomy controls, consent, action previews, undo/rollback, audit trails |
+| 4 | AI Agent UX | `AUTONOMY` | Interaction | Agentic AI — autonomy controls, consent, action previews, undo/rollback, audit trails |
 | 5 | AI Onboarding & Calibration | `CALIBRATE` | Foundation | Progressive disclosure, mental model calibration, expectation setting |
-| 6 | AI Feedback Loops | `SIGNAL` | Interaction | RLHF UX - thumbs up/down, preference ranking, human-in-the-loop |
-| 7 | AI Prompt UX | `CRAFT` | Foundation | Prompt interface design - input affordances, templates, suggestions |
+| 6 | AI Feedback Loops | `SIGNAL` | Interaction | RLHF UX — thumbs up/down, preference ranking, human-in-the-loop |
+| 7 | AI Prompt UX | `CRAFT` | Foundation | Prompt interface design — input affordances, templates, suggestions |
 | 8 | AI Personalization & Ethics | `ADAPT` | Trust & Safety | Adaptive interfaces, privacy balance, filter bubble prevention |
 | 9 | AI Safety Guardrails | `SHIELD` | Trust & Safety | Content moderation UX, bias detection, harm prevention, refusal design |
-| 10 | AI Journey Mapper | `PATHWAY` | Foundation | AI-specific journey mapping - trust arcs, capability discovery, autonomy transitions |
+| 10 | AI Journey Mapper | `PATHWAY` | Foundation | AI-specific journey mapping — trust arcs, capability discovery, autonomy transitions |
 | **Bonus** | AI Output & Multimodal Design | `RENDER` | Interaction | Response formatting, output hierarchy, cross-modal presentation |
-| **Bonus** | AI Accessibility Audit | `CLEAR` | Trust & Safety | WCAG 2.2 AA audit tailored to AI surfaces - keyboard, screen reader, captions, motion |
+| **Bonus** | AI Accessibility Audit | `CLEAR` | Trust & Safety | WCAG 2.2 AA audit tailored to AI surfaces — keyboard, screen reader, captions, motion |
 
 ---
 
@@ -99,7 +99,7 @@ flowchart TD
 | **RECOVER** | _R_ecognize, _E_xpress, _C_ontain, _O_ffer, _V_erify, _E_volve, _R_estore | Treat errors as design material |
 | **AUTONOMY** | _A_ction, _U_ser, _T_iered, _O_bservable, _N_arrated, _O_utcome, _M_emory, _Y_ield | Users supervise, AI executes |
 | **CALIBRATE** | _C_ommunicate, _A_nchor, _L_ayer, _I_nvite, _B_uild, _R_ecalibrate, _A_dapt, _T_rack, _E_volve | Onboarding is calibration, not tutorial |
-| **SIGNAL** | _S_urface, _I_ncentivize, _G_raduate, _N_arrate, _A_ggregate, _L_oop | Feedback is a transaction - close the loop |
+| **SIGNAL** | _S_urface, _I_ncentivize, _G_raduate, _N_arrate, _A_ggregate, _L_oop | Feedback is a transaction — close the loop |
 | **CRAFT** | _C_onstrain, _R_eveal, _A_ssist, _F_ormat, _T_each | A blank text box is not a prompt UX |
 | **ADAPT** | _A_gency, _D_ata, _A_lternatives, _P_atterns, _T_ested | Personalization is a power dynamic |
 | **SHIELD** | _S_cope, _H_uman, _I_nform, _E_scalation, _L_og, _D_egrade | Safety and usability are not opposites |
@@ -171,11 +171,11 @@ cp -r ai-ux-skill-library/skills/ai-agent-ux .github/skills/
 
 ## What Makes These Skills Unique
 
-1. **AI-only problems** - Every skill targets a UX challenge that does NOT exist in traditional software (trust arcs, hallucination recovery, autonomy dials)
-2. **Proprietary frameworks** - Each skill has a named, mnemonic framework (DIALOGUE, GLASS, RECOVER, etc.) with original scoring rubrics and decision matrices
-3. **Anti-pattern catalogs** - Every skill includes specific anti-patterns with explanations of why they fail, not just best practices
-4. **Cross-skill integration** - Skills reference each other, creating a composable system where outputs from one skill feed into another
-5. **Opinionated defaults** - Specific numbers, thresholds, and recommendations rather than "it depends" advice
+1. **AI-only problems** — Every skill targets a UX challenge that does NOT exist in traditional software (trust arcs, hallucination recovery, autonomy dials)
+2. **Proprietary frameworks** — Each skill has a named, mnemonic framework (DIALOGUE, GLASS, RECOVER, etc.) with original scoring rubrics and decision matrices
+3. **Anti-pattern catalogs** — Every skill includes specific anti-patterns with explanations of why they fail, not just best practices
+4. **Cross-skill integration** — Skills reference each other, creating a composable system where outputs from one skill feed into another
+5. **Opinionated defaults** — Specific numbers, thresholds, and recommendations rather than "it depends" advice
 
 ---
 
@@ -219,32 +219,32 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **Discovery & research**
 
-- [ai-customer-discovery-skills](https://github.com/varunk130/ai-customer-discovery-skills) - Turn raw customer signal into validated product opportunities (5 of 12 shipped)
-- [jtbd-extractor](https://github.com/varunk130/ai-customer-discovery-skills/tree/main/skills/jtbd-extractor) - Extract Jobs-to-be-Done statements from research, with opportunity scoring
+- [ai-customer-discovery-skills](https://github.com/varunk130/ai-customer-discovery-skills) — Turn raw customer signal into validated product opportunities (5 of 12 shipped)
+- [jtbd-extractor](https://github.com/varunk130/ai-customer-discovery-skills/tree/main/skills/jtbd-extractor) — Extract Jobs-to-be-Done statements from research, with opportunity scoring
 
 **Strategy & decisions**
 
-- [claude-code-skills](https://github.com/varunk130/claude-code-skills) - 29 production-grade skills for finance, product, strategy, and game theory
-- [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) - 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
+- [claude-code-skills](https://github.com/varunk130/claude-code-skills) — 29 production-grade skills for finance, product, strategy, and game theory
+- [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) — 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
 
 **Go-to-market**
 
-- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) - 31 opinionated GTM skills across the full discover -> renew lifecycle
-- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) - 12 marketing-ops skills with scoring algorithms and statistical frameworks
-- [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) - Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
+- [ai-gtm-skill-library](https://github.com/varunk130/ai-gtm-skill-library) — 31 opinionated GTM skills across the full discover → renew lifecycle
+- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) — 12 marketing-ops skills with scoring algorithms and statistical frameworks
+- [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) — Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
 
 **Multi-agent demos**
 
-- [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) - 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
-- [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) - Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
-- [ai-growth-os](https://github.com/varunk130/ai-growth-os) - Compound: a multi-agent growth experiment engine that runs the find -> design -> ship -> learn loop end-to-end, offline
-- [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) - Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
-- [ai-revops](https://github.com/varunk130/ai-revops) - Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
+- [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) — 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
+- [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) — Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
+- [ai-growth-os](https://github.com/varunk130/ai-growth-os) — Compound: a multi-agent growth experiment engine that runs the find → design → ship → learn loop end-to-end, offline
+- [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) — Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
+- [ai-revops](https://github.com/varunk130/ai-revops) — Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
 
 **Evaluation & operations**
 
-- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) - 7 skills to plan, generate, run, interpret, and triage AI agent evaluations
-- [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) - 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
+- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) — 7 skills to plan, generate, run, interpret, and triage AI agent evaluations
+- [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) — 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
 
 ---
 
