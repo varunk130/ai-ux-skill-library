@@ -1,5 +1,5 @@
 ---
-name: AI Onboarding & Calibration
+name: ai-onboarding-calibration
 description: 'Design onboarding experiences that help users build accurate mental models of AI capabilities, set expectations, and discover features progressively. Use when: AI onboarding, progressive disclosure for AI, capability communication, AI mental models, expectation setting, AI feature discovery, first-time AI user experience.'
 ---
 
