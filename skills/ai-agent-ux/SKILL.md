@@ -1,5 +1,5 @@
 ---
-name: AI Agent UX
+name: ai-agent-ux
 description: 'Design user experiences for autonomous AI agents that act on behalf of users - control panels, consent flows, action previews, audit trails, and undo mechanisms. Use when: agentic AI, autonomous agents, AI autonomy controls, agent UX, AI actions, computer use, agent consent, agent audit trail.'
 ---
 
