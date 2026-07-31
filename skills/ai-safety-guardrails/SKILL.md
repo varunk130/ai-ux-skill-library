@@ -1,5 +1,5 @@
 ---
-name: AI Safety Guardrails
+name: ai-safety-guardrails
 description: 'Design safety experiences for AI products - content moderation UX, bias detection surfaces, harm prevention patterns, and responsible AI interfaces. Use when: AI safety UX, content moderation, responsible AI, AI bias UX, harm prevention, content filtering UX, AI refusal design, safety disclaimers.'
 ---
 
