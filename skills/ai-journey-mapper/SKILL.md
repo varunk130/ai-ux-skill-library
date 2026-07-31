@@ -1,5 +1,5 @@
 ---
-name: AI Journey Mapper
+name: ai-journey-mapper
 description: 'Map human-AI interaction journeys - trust arcs, capability discovery paths, autonomy progression, and AI-specific touchpoints. Use when: AI user journey, human-AI interaction mapping, trust arc mapping, AI capability discovery, AI adoption journey, AI experience map.'
 ---
 
