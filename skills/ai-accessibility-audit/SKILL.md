@@ -1,5 +1,5 @@
 ---
-name: AI Accessibility Audit
+name: ai-accessibility-audit
 description: 'WCAG 2.2 Level AA accessibility audit for AI product surfaces - color contrast, focus order, ARIA usage, keyboard navigation, motion/animation, reduced-motion respect, alt text, and form label association. Use when: accessibility audit, a11y review, WCAG audit, screen reader compliance, keyboard-only navigation, color contrast check, focus management, ARIA review, accessible AI UX.'
 ---
 
