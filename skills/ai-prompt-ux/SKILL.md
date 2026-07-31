@@ -1,5 +1,5 @@
 ---
-name: AI Prompt UX
+name: ai-prompt-ux
 description: 'Design the input experience for AI products - how users craft, structure, and refine their instructions to AI systems. Use when: prompt interface, AI input design, prompt templates, prompt suggestions, context window UX, instruction design, AI input affordances, prompt engineering UX.'
 ---
 
