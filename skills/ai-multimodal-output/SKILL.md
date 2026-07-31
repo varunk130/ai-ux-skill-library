@@ -1,5 +1,5 @@
 ---
-name: AI Output & Multimodal Design
+name: ai-multimodal-output
 description: 'Design how AI presents results across text, code, images, charts, and mixed media - response formatting, output hierarchy, and cross-modal transitions. Use when: AI output design, response formatting, AI results display, multimodal output, AI-generated content presentation, code output UX, AI visualization.'
 ---
 
