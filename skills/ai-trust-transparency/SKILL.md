@@ -1,5 +1,5 @@
 ---
-name: AI Trust & Transparency
+name: ai-trust-transparency
 description: 'Design explainability interfaces that help users understand AI decisions, build calibrated trust, and verify AI outputs. Use when: AI explainability, XAI UX, confidence indicators, citation design, source attribution, trust signals, AI transparency, why did AI do this.'
 ---
 
