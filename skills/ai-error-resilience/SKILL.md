@@ -1,5 +1,5 @@
 ---
-name: AI Error Resilience
+name: ai-error-resilience
 description: 'Design graceful failure experiences for AI products - hallucinations, uncertainty, wrong outputs, and edge cases. Use when: AI hallucination UX, error handling for AI, uncertainty design, graceful degradation, AI failure recovery, confidence thresholds, safe fallbacks.'
 ---
 
