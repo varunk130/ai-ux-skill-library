@@ -1,5 +1,5 @@
 ---
-name: AI Conversation Architect
+name: ai-conversation-architect
 description: 'Design conversational AI interfaces that feel natural, recover from failures gracefully, and build user trust through dialogue. Use when: chatbot UX, conversational UI, dialogue design, AI assistant interface, chat flow, turn-taking, AI persona voice, multi-turn context.'
 ---
 
