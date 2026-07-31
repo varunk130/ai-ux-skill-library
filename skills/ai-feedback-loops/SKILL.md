@@ -1,5 +1,5 @@
 ---
-name: AI Feedback Loops
+name: ai-feedback-loops
 description: 'Design feedback mechanisms that help AI systems learn from users - thumbs up/down, preference ranking, corrections, and human-in-the-loop escalation. Use when: RLHF UX, user feedback for AI, thumbs up down design, AI correction flow, human in the loop, feedback signal design, AI improvement loops.'
 ---
 
