@@ -1,5 +1,5 @@
 ---
-name: AI Personalization & Ethics
+name: ai-personalization-ethics
 description: 'Design AI-driven personalization that adapts interfaces to users while respecting privacy, avoiding filter bubbles, and maintaining user agency. Use when: adaptive UI, AI personalization, recommendation UX, filter bubble prevention, privacy personalization balance, algorithmic fairness UX, user preference learning.'
 ---
 
