@@ -262,3 +262,5 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for th
 *Powered by Claude Code & GitHub Copilot*
 
 </div>
+
+<sub>Released under the [MIT License](./LICENSE).</sub>
