@@ -19,6 +19,23 @@
 
 ---
 
+## Table of Contents
+
+- [Quickstart](#-quickstart)
+- [Why This Exists](#why-this-exists)
+- [Ecosystem Architecture](#ecosystem-architecture)
+- [Skills Catalog](#skills-catalog)
+- [Framework Quick Reference](#framework-quick-reference)
+- [Quickstart Workflows](#quickstart-workflows)
+- [Installation](#installation)
+- [What Makes These Skills Unique](#what-makes-these-skills-unique)
+- [Directory Structure](#directory-structure)
+- [Contributing](#contributing)
+- [Related Work](#related-work)
+- [License](#license)
+
+---
+
 ## ⚡ Quickstart
 
 ```bash
