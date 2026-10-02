@@ -1,0 +1,64 @@
+{
+  "_version": "2026-10-01",
+  "_note": "Example UX eval rubric for ai-ux-eval. Ships as a starting point only — rewrite the criteria for your own surface, then version this file like code so scores stay comparable across releases.",
+  "rubric_id": "ai-chat-surface-v1",
+  "bands": {
+    "ship-ready": [80, 100],
+    "polish-needed": [60, 79],
+    "iterate": [40, 59],
+    "rework": [0, 39]
+  },
+  "band_override": {
+    "_note": "Band is set by the weakest dimension when that dimension is one of these.",
+    "dimensions": ["transparency", "recoverability"]
+  },
+  "eval_set_mix": {
+    "happy_path": 0.30,
+    "ambiguous_input": 0.25,
+    "out_of_scope": 0.15,
+    "error_states": 0.15,
+    "adversarial": 0.10,
+    "accessibility": 0.05
+  },
+  "dimensions": {
+    "transparency": {
+      "runtime_helper": "score_transparency",
+      "design_skill": "ai-trust-transparency",
+      "criteria": [
+        { "id": "T1", "statement": "Every factual claim carries a source the user can open.", "signal": "citation_click_through" },
+        { "id": "T2", "statement": "Confidence is shown when the model is below its own threshold.", "signal": "edit_distance" }
+      ]
+    },
+    "recoverability": {
+      "runtime_helper": "score_recoverability",
+      "design_skill": "ai-error-resilience",
+      "criteria": [
+        { "id": "R1", "statement": "Any AI-written change can be undone in one action.", "signal": "undo_usage" },
+        { "id": "R2", "statement": "After an AI error, the next step is offered without restarting the task.", "signal": "abandonment_after_error" }
+      ]
+    },
+    "predictability": {
+      "runtime_helper": "score_predictability",
+      "design_skill": "ai-agent-ux",
+      "criteria": [
+        { "id": "P1", "statement": "The user can tell what the AI will do before it acts.", "signal": "regeneration_rate" },
+        { "id": "P2", "statement": "Multi-step work exposes its steps as they run.", "signal": "prompt_refinement_rate" }
+      ]
+    },
+    "trust": {
+      "runtime_helper": "score_trust",
+      "design_skill": "ai-safety-guardrails",
+      "criteria": [
+        { "id": "C1", "statement": "Refusals explain the boundary instead of stonewalling.", "signal": "repeat_usage_after_failure" },
+        { "id": "C2", "statement": "Feedback on a bad answer is acknowledged with a stated next step.", "signal": "feedback_submission_rate" }
+      ]
+    }
+  },
+  "raters": {
+    "gold_example_count": 8,
+    "double_rated_share": 0.20,
+    "min_agreement": 0.70,
+    "blind_to_version": true,
+    "model_rater": { "model_id": "record-exact-id-here", "prompt_version": "v1" }
+  }
+}
