@@ -149,7 +149,13 @@ ai-trust-transparency → ai-feedback-loops
 ### Auditing an Existing AI Product
 ```
 ai-journey-mapper → ai-trust-transparency → ai-error-resilience →
-ai-safety-guardrails → ai-personalization-ethics
+ai-safety-guardrails → ai-personalization-ethics → ai-ux-eval
+```
+
+### Scoring UX Quality Before a Release
+```
+ai-ux-eval → (weakest dimension) → ai-trust-transparency |
+ai-error-resilience | ai-agent-ux | ai-safety-guardrails → ai-ux-eval
 ```
 
 ### Improving AI Adoption & Retention
@@ -220,7 +226,8 @@ ai-ux-skill-library/
     ├── ai-safety-guardrails/SKILL.md        # SHIELD Framework
     ├── ai-accessibility-audit/SKILL.md      # CLEAR Framework (Bonus, WCAG 2.2 AA)
     ├── ai-journey-mapper/SKILL.md           # PATHWAY Framework
-    └── ai-multimodal-output/SKILL.md        # RENDER Framework (Bonus)
+    ├── ai-multimodal-output/SKILL.md        # RENDER Framework (Bonus)
+    └── ai-ux-eval/SKILL.md                  # RUBRIC Framework (Bonus, scored UX eval)
 ```
 
 ---
