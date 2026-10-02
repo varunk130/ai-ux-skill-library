@@ -72,7 +72,7 @@ The skills are organized into **4 design phases** for AI products:
 flowchart TD
     F["🎯 FOUNDATION<br/>How users start with AI<br/><br/>ai-onboarding-calibration · ai-prompt-ux · ai-journey-mapper"]
     I["🤖 INTERACTION<br/>How users work with AI<br/><br/>ai-conversation-architect · ai-agent-ux<br/>ai-feedback-loops · ai-multimodal-output"]
-    T["🛡 TRUST & SAFETY<br/>How users trust AI<br/><br/>ai-trust-transparency · ai-error-resilience<br/>ai-safety-guardrails · ai-personalization-ethics"]
+    T["🛡 TRUST & SAFETY<br/>How users trust AI<br/><br/>ai-trust-transparency · ai-error-resilience<br/>ai-safety-guardrails · ai-personalization-ethics<br/>ai-accessibility-audit"]
     M["📊 MEASUREMENT<br/>How teams know it works<br/><br/>ai-ux-eval"]
 
     F --> I --> T --> M
