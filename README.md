@@ -66,22 +66,26 @@ General UX skills (journey mapping, accessibility, design systems) are well-serv
 
 ## Ecosystem Architecture
 
-The skills are organized into **3 design phases** for AI products:
+The skills are organized into **4 design phases** for AI products:
 
 ```mermaid
 flowchart TD
     F["🎯 FOUNDATION<br/>How users start with AI<br/><br/>ai-onboarding-calibration · ai-prompt-ux · ai-journey-mapper"]
     I["🤖 INTERACTION<br/>How users work with AI<br/><br/>ai-conversation-architect · ai-agent-ux<br/>ai-feedback-loops · ai-multimodal-output"]
     T["🛡 TRUST & SAFETY<br/>How users trust AI<br/><br/>ai-trust-transparency · ai-error-resilience<br/>ai-safety-guardrails · ai-personalization-ethics"]
+    M["📊 MEASUREMENT<br/>How teams know it works<br/><br/>ai-ux-eval"]
 
-    F --> I --> T
+    F --> I --> T --> M
+    M -.->|re-score next release| F
 
     classDef foundation fill:#1a73e8,color:#fff,stroke:#1558b0,stroke-width:2px,rx:8,ry:8
     classDef interact fill:#7C83FD,color:#fff,stroke:#5F65CC,stroke-width:2px,rx:8,ry:8
     classDef trust fill:#ea8600,color:#fff,stroke:#c57200,stroke-width:2px,rx:8,ry:8
+    classDef measure fill:#188038,color:#fff,stroke:#0d652d,stroke-width:2px,rx:8,ry:8
     class F foundation
     class I interact
     class T trust
+    class M measure
 ```
 
 ---
