@@ -88,7 +88,7 @@ flowchart TD
 
 ## Skills Catalog
 
-12 skills total — 10 core skills (numbered 1–10) plus 2 bonus skills (output/multimodal and accessibility) that extend coverage to rendering and inclusive design.
+13 skills total — 10 core skills (numbered 1–10) plus 3 bonus skills (output/multimodal, accessibility, and UX eval) that extend coverage to rendering, inclusive design, and measurement.
 
 | # | Skill | Framework | Phase | What It Solves |
 |---|-------|-----------|-------|---------------|
@@ -104,6 +104,7 @@ flowchart TD
 | 10 | AI Journey Mapper | `PATHWAY` | Foundation | AI-specific journey mapping — trust arcs, capability discovery, autonomy transitions |
 | **Bonus** | AI Output & Multimodal Design | `RENDER` | Interaction | Response formatting, output hierarchy, cross-modal presentation |
 | **Bonus** | AI Accessibility Audit | `CLEAR` | Trust & Safety | WCAG 2.2 AA audit tailored to AI surfaces — keyboard, screen reader, captions, motion |
+| **Bonus** | AI UX Eval | `RUBRIC` | Measurement | Scored, repeatable UX evaluation — eval set design, rater calibration, score bands tied to ship decisions |
 
 ---
 
