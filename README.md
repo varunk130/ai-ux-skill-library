@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="AI UX Skill Library — 12 frameworks for designing UX for AI products, agents, and AI-powered experiences" width="100%"/>
+<img src="assets/hero.svg" alt="AI UX Skill Library — 13 frameworks for designing UX for AI products, agents, and AI-powered experiences" width="100%"/>
 
 # AI UX Skill Library
 
-### The 12-Skill AI UX Design Engine for Claude Code & GitHub Copilot
+### The 13-Skill AI UX Design Engine for Claude Code & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-12-blue?style=for-the-badge)](#skills-catalog)
-[![Frameworks](https://img.shields.io/badge/Frameworks-12-green?style=for-the-badge)](#framework-quick-reference)
+[![Skills](https://img.shields.io/badge/Skills-13-blue?style=for-the-badge)](#skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-13-green?style=for-the-badge)](#framework-quick-reference)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
 
@@ -42,7 +42,7 @@
 # 1. Clone the repo
 git clone https://github.com/varunk130/ai-ux-skill-library.git
 
-# 2. Install all 12 skills globally for Claude Code
+# 2. Install all 13 skills globally for Claude Code
 mkdir -p ~/.claude/skills
 cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
 
@@ -60,7 +60,7 @@ cp -r ai-ux-skill-library/skills/* ~/.claude/skills/
 
 > **Traditional UX skills don't cover AI.** When your product can hallucinate, act autonomously, and produce different outputs from the same input — you need a new UX design vocabulary. This library provides it.
 
-General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 12 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
+General UX skills (journey mapping, accessibility, design systems) are well-served by existing resources. This library focuses exclusively on the **delta** — the 13 UX challenges that are unique to AI products and don't exist in traditional software or digital products.
 
 ---
 
