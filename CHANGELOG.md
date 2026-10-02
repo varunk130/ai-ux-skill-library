@@ -2,6 +2,7 @@
 
 Notable changes to this project, newest first.
 
+- 2026-10-01 - New skill: added ai-ux-eval (RUBRIC framework) for scored, repeatable UX evaluation - eval set design, rater calibration, and score bands aligned with the python_runtime evaluator.
 - 2026-06-29 - Documentation: corrected the AI-Eval-Skills reference in Related Work to 7 skills and added the three Next.js multi-agent demos (Compound, Beacon, Atlas).
 - 2026-06-07 - Documentation: updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
 - 2026-05-07 - Documentation: clarified the "Why This Exists" framing in the README intro.
