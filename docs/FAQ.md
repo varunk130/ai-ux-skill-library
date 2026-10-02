@@ -25,6 +25,7 @@ Yes. Skills are designed to compose. A typical flow might chain:
 1. **Audit** - run a heuristic review of the existing experience.
 2. **Generate** - produce design alternatives or wireframes.
 3. **Validate** - pressure-test the design against AI UX principles.
+4. **Score** - run `ai-ux-eval` to turn the review into a number you can compare next release.
 
 ## How is this different from a regular UX checklist?
 
@@ -48,7 +49,7 @@ You can still use the skills manually - paste the Markdown into your chat or cop
 
 ## Is there a reference implementation?
 
-Each skill is self-contained - the Markdown file is the implementation. For richer examples, check the `examples/` or `samples/` directories if present.
+Each skill is self-contained - the Markdown file is the implementation. For a runnable reference, the `python_runtime/` package scores an AI experience across four UX dimensions with no external dependencies, and `skills/ai-ux-eval/rubric.example.json` is a worked eval rubric you can adapt.
 
 ## License
 
