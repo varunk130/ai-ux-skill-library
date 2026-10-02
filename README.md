@@ -4,7 +4,7 @@
 
 # AI UX Skill Library
 
-### The 13-Skill AI UX Design Engine for Claude Code & GitHub Copilot
+### The 13-Skill AI UX Design Engine for Claude Code, OpenAI Codex & GitHub Copilot
 
 [![Skills](https://img.shields.io/badge/Skills-13-blue?style=for-the-badge)](#skills-catalog)
 [![Frameworks](https://img.shields.io/badge/Frameworks-13-green?style=for-the-badge)](#framework-quick-reference)
@@ -168,7 +168,7 @@ ai-personalization-ethics
 
 ## Installation
 
-Each skill is a standalone `SKILL.md` file that can be installed into your Claude Code or GitHub Copilot environment.
+Each skill is a standalone `SKILL.md` file that can be installed into your Claude Code, OpenAI Codex, or GitHub Copilot environment.
 
 ### Claude Code
 
