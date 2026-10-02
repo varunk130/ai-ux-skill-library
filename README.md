@@ -124,6 +124,7 @@ flowchart TD
 | **PATHWAY** | _P_erception, _A_utonomy, _T_rust, _H_elp, _W_ow, _A_nxiety, _Y_ield | Map what users BELIEVE, not just what they DO |
 | **RENDER** | _R_ight, _E_asy, _N_avigable, _D_irectly, _E_ditable, _R_eproducible | AI generates output. Humans consume meaning |
 | **CLEAR** | _C_ontrast, _L_abels, _E_quivalents, _A_ssist, _R_esponsive | WCAG 2.2 AA audit tailored to AI surfaces |
+| **RUBRIC** | _R_epresent, _U_nitize, _B_and, _R_ate, _I_nstrument, _C_ompare | A UX eval is a decision instrument, not a report card |
 
 ---
 
