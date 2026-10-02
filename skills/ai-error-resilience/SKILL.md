@@ -158,4 +158,4 @@ For every AI feature, map the blast radius of failure:
 
 ## Integration
 
-Works with: `ai-trust-transparency` (how errors affect trust), `ai-conversation-architect` (error recovery in dialogue), `ai-safety-guardrails` (preventing harmful errors), `ai-feedback-loops` (learning from error reports).
+Works with: `ai-trust-transparency` (how errors affect trust), `ai-conversation-architect` (error recovery in dialogue), `ai-safety-guardrails` (preventing harmful errors), `ai-feedback-loops` (learning from error reports), `ai-ux-eval` (scores the recoverability dimension).

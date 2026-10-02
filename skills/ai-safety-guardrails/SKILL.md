@@ -169,4 +169,4 @@ When a safety failure occurs in production:
 
 ## Integration
 
-Works with: `ai-error-resilience` (safety failures as a subset of errors), `ai-trust-transparency` (transparency about safety filtering), `ai-agent-ux` (safety boundaries for autonomous actions), `ai-personalization-ethics` (preventing personalization-driven harm).
+Works with: `ai-error-resilience` (safety failures as a subset of errors), `ai-trust-transparency` (transparency about safety filtering), `ai-agent-ux` (safety boundaries for autonomous actions), `ai-personalization-ethics` (preventing personalization-driven harm), `ai-ux-eval` (scores the trust dimension).

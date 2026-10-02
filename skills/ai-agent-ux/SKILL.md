@@ -176,4 +176,4 @@ When multiple agents work together:
 
 ## Integration
 
-Works with: `ai-trust-transparency` (explaining agent decisions), `ai-error-resilience` (agent failure recovery), `ai-safety-guardrails` (agent action boundaries), `ai-feedback-loops` (rating agent performance).
+Works with: `ai-trust-transparency` (explaining agent decisions), `ai-error-resilience` (agent failure recovery), `ai-safety-guardrails` (agent action boundaries), `ai-feedback-loops` (rating agent performance), `ai-ux-eval` (scores the predictability dimension).

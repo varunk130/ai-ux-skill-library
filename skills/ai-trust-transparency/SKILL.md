@@ -153,4 +153,4 @@ Every non-trivial AI output should support a "Why?" interaction:
 
 ## Integration
 
-Works with: `ai-error-resilience` (transparency about failures), `ai-conversation-architect` (confidence in dialogue), `ai-safety-guardrails` (transparency about content filtering), `ai-feedback-loops` (user corrections as trust signals).
+Works with: `ai-error-resilience` (transparency about failures), `ai-conversation-architect` (confidence in dialogue), `ai-safety-guardrails` (transparency about content filtering), `ai-feedback-loops` (user corrections as trust signals), `ai-ux-eval` (scores the transparency dimension).
