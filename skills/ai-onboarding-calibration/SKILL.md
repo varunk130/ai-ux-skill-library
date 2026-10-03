@@ -77,7 +77,7 @@ Before users commit to real tasks, offer a zero-risk exploration environment.
 |---|---|
 | **No real consequences** | Sandbox actions don't affect real data, send real emails, or cost real money |
 | **Pre-loaded scenarios** | Provide 3-5 example prompts that showcase different capabilities |
-| **Instant gratification** | First sandbox interaction should produce a impressive result in under 10 seconds |
+| **Instant gratification** | First sandbox interaction should produce an impressive result in under 10 seconds |
 | **Bridge to reality** | Clear path from sandbox to real use: "Ready to try this with your own data?" |
 | **Replayable** | Users can return to the sandbox anytime to test new capabilities safely |
 
