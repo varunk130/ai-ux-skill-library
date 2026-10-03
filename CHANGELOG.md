@@ -2,6 +2,8 @@
 
 Notable changes to this project, newest first.
 
+- 2026-10-03 - Maintenance: corrected the ai-gtm-skill-library reference in Related Work to 37 skills, fixed article agreement in ai-onboarding-calibration, and normalized line endings and final newlines per .editorconfig.
+- 2026-10-02 - Documentation: noted OpenAI Codex alongside Claude Code and GitHub Copilot in the title, install notes, and footer.
 - 2026-10-01 - New skill: added ai-ux-eval (RUBRIC framework) for scored, repeatable UX evaluation - eval set design, rater calibration, and score bands aligned with the python_runtime evaluator.
 - 2026-06-29 - Documentation: corrected the AI-Eval-Skills reference in Related Work to 7 skills and added the three Next.js multi-agent demos (Compound, Beacon, Atlas).
 - 2026-06-07 - Documentation: updated the ai-customer-discovery-skills status in Related Work (5 of 12 skills shipped).
